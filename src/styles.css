@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~font-awesome/css/font-awesome.css';
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  box-shadow: 0 0 20px black;
+}
+
+.bg {
+  /* The image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('assets/images/bg.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
